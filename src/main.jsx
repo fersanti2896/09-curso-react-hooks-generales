@@ -12,9 +12,10 @@ import { MultipleCustomHook } from './03-examples/MultipleCustomHook';
 import { SimpleForm } from './02-useEffect/SimpleForm';
 
 import './index.css'
+import { Padre } from './07-tarea-memo/Padre';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <CallbackHook />
+    <Padre />
   // </React.StrictMode>
 )
